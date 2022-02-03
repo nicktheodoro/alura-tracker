@@ -9,11 +9,11 @@
 <script lang="ts">
 import { defineComponent } from "vue";
 
-import Box from "../components/Box.vue";
-import Formulario from "../components/Formulario.vue";
-import Tarefa from "../components/Tarefa.vue";
+import Box from "@/components/Box.vue";
+import Formulario from "@/components/Formulario.vue";
+import Tarefa from "@/components/Tarefa.vue";
 
-import ITarefa from "../interfaces/ITarefa";
+import ITarefa from "@/interfaces/ITarefa";
 
 export default defineComponent({
   name: "App",

@@ -38,7 +38,7 @@
 import { computed, defineComponent } from "vue";
 import { useStore } from "vuex";
 
-import { key } from "../store/index";
+import { key } from "@/store/index";
 
 import Temporizador from "./Temporizador.vue";
 
